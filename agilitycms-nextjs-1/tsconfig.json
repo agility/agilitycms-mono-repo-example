@@ -21,7 +21,8 @@
     "**/*.tsx",
     "pages/[...slug].js",
     "pages/index.js",
-    "**/*.js"
+    "**/*.js",
+    "../shared/TextBlockWithImage.js"
   ],
   "exclude": ["node_modules"],
   "paths": {
