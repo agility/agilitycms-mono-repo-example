@@ -1,0 +1,11 @@
+{
+  "name": "mono-repo-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "agilitycms-nextjs-1",
+    "agilitycms-nextjs-2",
+    "shared"
+  ]
+}
