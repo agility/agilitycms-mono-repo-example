@@ -1,0 +1,11 @@
+@import '../node_modules/agility-mono-example-design-system/_variables.scss' ;
+
+//Variable overrides
+$primaryColor: green;
+$secondaryColor: black;
+
+//Import the dependencies for ALL components from design system
+@import '../node_modules/agility-mono-example-design-system/styles/all.scss';
+
+//OR, only import the components you need
+//@import '../node_modules/agility-mono-example-design-system/components/button/_Button.scss';

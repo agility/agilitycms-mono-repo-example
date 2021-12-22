@@ -1,7 +1,7 @@
 // tailwind.config.js
 module.exports = {
   presets: [
-    require('../tailwind-preset.js')
+    require('agility-mono-example-design-system/tailwind-preset.js')
   ],
   purge: [
     "./pages/**/*.{js,ts,jsx,tsx}",
