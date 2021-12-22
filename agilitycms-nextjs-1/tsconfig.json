@@ -22,7 +22,7 @@
     "pages/[...slug].js",
     "pages/index.js",
     "**/*.js",
-    "../shared/TextBlockWithImage.js"
+    "../lib/TextBlockWithImage.js"
   ],
   "exclude": ["node_modules"],
   "paths": {

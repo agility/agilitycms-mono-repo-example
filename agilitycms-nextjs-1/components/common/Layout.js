@@ -7,7 +7,7 @@ import SEO from "./SEO";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
 import LoadingWidget from "./LoadingWidget";
-import { Login } from "@agility-mono-example/shared-components";
+import { Login } from "agility-mono-example-design-system";
 
 // set up handle preview
 const isPreview = handlePreview();

@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev:site-1": "cd agilitycms-nextjs-1 && yarn dev",
+    "dev:site-2": "cd agilitycms-nextjs-2 && yarn dev",
+    "dev:lib": "cd lib && yarn storybook"
+  },
   "workspaces": [
     "agilitycms-nextjs-1",
     "agilitycms-nextjs-2",
-    "shared"
+    "lib"
   ]
 }

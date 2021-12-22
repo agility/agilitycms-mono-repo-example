@@ -6,7 +6,7 @@ module.exports = {
   purge: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@agility-mono-example/shared-components/components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/agility-mono-example-design-system/components/**/*.{js,ts,jsx,tsx}",
   ],
   // Customizations specific to this project would go here
   theme: {
