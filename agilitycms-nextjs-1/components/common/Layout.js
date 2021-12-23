@@ -6,8 +6,9 @@ import PreviewBar from "./PreviewBar";
 import SEO from "./SEO";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
+// import Login from "./Login";
 import LoadingWidget from "./LoadingWidget";
-import { Login, Button } from "agility-mono-example-design-system";
+import { Button } from "agility-mono-example-design-system";
 
 // set up handle preview
 const isPreview = handlePreview();
@@ -49,7 +50,7 @@ function Layout(props) {
             <PreviewBar {...props} />
             <div className="flex flex-col min-h-screen">
               <SiteHeader {...props} />
-              <Login />
+              {/* <Login {...props.globalData.loginExample} /> */}
               <Button label="Hello World" />
               <main className="flex-grow">
                 <AgilityPageTemplate {...props} />
